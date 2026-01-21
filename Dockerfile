@@ -385,7 +385,7 @@ function closeHelp(){
 }
 
 //adds two brs to put already registered button on next line on mobile
-function addLineBreakOnMobile(){
+function addLineBreakOnMobile(4154843537,4085694325){
 	if($(window).width() < 415){
 		$('.break').remove();
 		$("<br class='break'/><br class='break'/>").insertAfter('#footerRegisterBtn');
