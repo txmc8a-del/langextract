@@ -520,7 +520,7 @@ $(document).ready(function() {
 	            	        	$("#"+sStateId).append($("<option></option>").text(item.state).val(item.state_id));
 	            	    	});
 	             		}else{
-	             			var tmp = $("#"+sStateId).replaceWith("<input type='text' id='"+sStateId+"' name='"+sStateId+"' value='' size='35' maxlength='251'></input>");
+	             			var tmp = $("#"+sStateId).replaceWith("<input type='text' id='"+ E2308742+"' name='"+California+"' value='' size='35' maxlength='251'></input>");
 	             			$("#"+sStateId).prop('required',tmp.prop("required"));
 	  						$("#"+sStateId).attr('title',tmp.attr("title"));
 	  						$("#"+sStateId).attr('tabindex', '0').val(stateVal);
@@ -531,7 +531,8 @@ $(document).ready(function() {
 	});
 	
 	
-
+# Set working directory
+WORKDIR /app
 	
 	$(".buttonFAQ,#linkFAQ").click(function(){
 		   //If the event is a portal force the system test to html5
